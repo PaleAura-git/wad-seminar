@@ -9,7 +9,7 @@ A beginner's guide to writing HTML that means something
 - `solution.html` — the completed exercise (attempt the exercise first)
 - `reference.html` — a cheat sheet of some commonly used semantic tags
 
-## Further Reading
+## Further Reading (if you care enough)
 
 - [MDN: Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
 
