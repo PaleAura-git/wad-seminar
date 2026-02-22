@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Semantic HTML Reference</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Semantic HTML Cheat Sheet</h1>
+      <p>A quick reference for every tag covered in the seminar.</p>
+    </header>
+
+    <main>
+
+      <article>
+        <h2>Page Structure</h2>
+
+        <p><b>&lt;header&gt;</b> — The top of the page. Contains introductory content like
+        the site title or logo. Tells the browser and anyone reading the code where the page begins.</p>
+
+        <p><b>&lt;nav&gt;</b> — A group of navigation links. Screen readers can jump directly
+        to this element, skipping everything above it.</p>
+
+        <p><b>&lt;main&gt;</b> — The primary content of the page. Should only appear once per page.
+        Contains content that is unique to this page and not repeated across the site.</p>
+
+        <p><b>&lt;footer&gt;</b> — The bottom of the page. Contains closing information such as
+        credits, copyright notices, or contact links.</p>
+      </article>
+
+      <article>
+        <h2>Content Tags</h2>
+
+        <p><b>&lt;article&gt;</b> — Self-contained content that makes sense on its own.
+        Examples: a blog post, a news story, a product listing.</p>
+
+        <p><b>&lt;section&gt;</b> — A thematic group of content within a page. Use when
+        your main content has multiple distinct parts that belong together.</p>
+
+        <p><b>&lt;h1&gt; to &lt;h6&gt;</b> — Headings that form a document outline.
+        There should only be one &lt;h1&gt; per page. Subheadings use &lt;h2&gt;,
+        sections within those use &lt;h3&gt;, and so on. Think of it as a table of
+        contents, not just a font size setting.</p>
+
+        <p><b>&lt;p&gt;</b> — A paragraph of text.</p>
+
+        <p><b>&lt;a&gt;</b> — A link. Always use this for navigation items and anything
+        clickable that takes the user somewhere. Unlike a &lt;div&gt;, it is keyboard
+        focusable by default.</p>
+      </article>
+
+      <article>
+        <h2>What to Avoid</h2>
+
+        <p><b>&lt;div&gt;</b> — A generic container with no meaning attached to it.
+        The browser, search engines, and screen readers learn nothing from it.
+        Use it only as a last resort when no semantic tag fits.</p>
+      </article>
+
+      <article>
+        <h2>Quick Rules to Remember</h2>
+
+        <p>Only one &lt;h1&gt; per page.</p>
+        <p>Only one &lt;main&gt; per page.</p>
+        <p>If it is a link, use &lt;a&gt;. If it is a button, use &lt;button&gt;.</p>
+        <p>If it is a heading, use &lt;h1&gt; through &lt;h6&gt; — not a styled &lt;div&gt;.</p>
+        <p>When in doubt, ask: does this tag describe what is inside it? If not, find one that does.</p>
+      </article>
+
+    </main>
+
+    <footer>Semantic HTML Seminar</footer>
+
+  </body>
+</html>
